@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header & Logo */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-logo {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+
+.shop-now {
+    background: #ffffff;
+    color: #000000;
+    padding: 15px 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.shop-now:hover {
+    background: #cccccc;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #111111;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #333333;
+}
+
+.nav-item {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: #aaaaaa;
+}
+
+.logout-section {
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+
+/* Login Box Mockup */
+.login-box {
+    background: #111;
+    padding: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+}
