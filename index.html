@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Threads | Streetwear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="circle-logo">Logo</div>
+        </div>
+        <nav>
+            <button class="nav-btn" onclick="location.href='#login'">Login</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>NEW COLLECTION</h1>
+            <p>Define your style. Unique. Bold. Black.</p>
+            <button class="shop-now">Shop Now</button>
+        </section>
+    </main>
+
+    <footer class="bottom-nav">
+        <div class="nav-item" onclick="alert('Redirecting to Orders...')">
+            <span class="icon">📦</span>
+            <p>My Orders</p>
+        </div>
+        
+        <div class="nav-item" onclick="alert('Redirecting to G-Wallet...')">
+            <span class="icon">💳</span>
+            <p>G-Wallet</p>
+        </div>
+
+        <div class="nav-item logout-section" onclick="alert('Redirecting to Profile Management...')">
+            <span class="icon">👤</span>
+            <p>Logout</p>
+        </div>
+    </footer>
+
+    <div id="login-overlay" class="hidden">
+        <div class="login-box">
+            <h2>Two-Step Verification</h2>
+            <input type="text" placeholder="Mobile Number">
+            <button onclick="nextStep()">Get OTP</button>
+            <p class="step-label">Step 1: Mobile OTP</p>
+        </div>
+    </div>
+
+</body>
+</html>
